@@ -40,3 +40,5 @@ export default task(async function deploy() {
   await repo.commit('Update ' + new Date().toISOString());
   await repo.push(remote.name, 'master:' + remote.branch);
 });
+
+

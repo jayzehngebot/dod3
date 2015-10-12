@@ -9,6 +9,7 @@ import webpack from 'webpack';
 import merge from 'lodash.merge';
 
 const DEBUG = !process.argv.includes('release');
+// const DEBUG = false;
 const VERBOSE = process.argv.includes('verbose');
 const WATCH = global.watch;
 const AUTOPREFIXER_BROWSERS = [

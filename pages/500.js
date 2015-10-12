@@ -19,7 +19,7 @@ export default class extends Component {
         <pre>{
           this.props.error ?
             this.props.error.message + '\n\n' + this.props.error.stack :
-            'An critical error occurred.'
+            'An error occurred.'
         }</pre>
       </div>
     );

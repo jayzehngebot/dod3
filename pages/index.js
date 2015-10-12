@@ -12,7 +12,7 @@ export default class extends Component {
     return (
       <div>
         <h1>D0D</h1>
-        <p><img src="hero.png" /></p>
+        <p><img id="hero" src="hero2.png" /></p>
       </div>
     );
   }

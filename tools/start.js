@@ -15,6 +15,7 @@ const webpackConfig = require('./config')[0];
 const bundler = webpack(webpackConfig);
 
 export default async () => {
+
   await require('./build')();
 
   browserSync({
