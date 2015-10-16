@@ -4,6 +4,20 @@
  * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
  */
 
-.Link {
+ @import '../variables.scss';
 
+
+.Hero {
+	display:inline-block;
+	width: calc($screen-sm-min - 18px);
+	height: auto;
 }
+
+ @media (min-width: $screen-sm-min) {
+	.Hero {
+		width: calc($screen-sm-min - 18px);
+		height: auto;
+	}
+}
+
+

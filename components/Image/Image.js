@@ -20,7 +20,7 @@ class Image extends Component {
 
   static propTypes = {
     src: PropTypes.string.isRequired,
-    state: PropTypes.object,
+    // state: PropTypes.object,
     // onClick: PropTypes.func,
   };
 
@@ -51,8 +51,7 @@ class Image extends Component {
   // };
 
   render() {
-    // const { to, ...props } = this.props;
-    return <img src=this.props.src>;
+    // const { src }  = this.props;
   }
 
 }

@@ -22,6 +22,12 @@ html, body {
   .Layout {
     width: calc($screen-sm-min - 18px);
   }
+
+  .Hero {
+    width: calc($screen-sm-min - 18px);
+    height: auto;
+  }
+
 }
 
 @media (min-width: $screen-md-min) {

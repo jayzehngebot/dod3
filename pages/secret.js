@@ -11,8 +11,8 @@ export default class extends Component {
   render() {
     return (
       <div>
-        <h1>D0D</h1>
-        <p><img className="Hero" src="hero2.png" /></p>
+        <h1>secret</h1>
+        <p>123</p>
       </div>
     );
   }
