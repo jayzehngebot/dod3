@@ -40,7 +40,7 @@
     "webpack": "^1.12.2",
     "webpack-dev-middleware": "^1.2.0",
     "webpack-hot-middleware": "^2.3.0",
-    "s3":"^4.4.0"
+    "s3": "^4.4.0"
   },
   "scripts": {
     "lint": "eslint src tools test",
@@ -50,5 +50,11 @@
     "start": "babel-node --eval \"require('./tools/start')().catch(err => console.log(err.stack))\"",
     "deploy": "babel-node --eval \"require('./tools/deploy')().catch(err => console.log(err.stack))\"",
     "deployS3": "babel-node --eval \"require('./tools/deployS3')().catch(err => console.log(err.stack))\""
+  },
+  "dependencies": {
+    "react-remarkable": "~1.1.1",
+    "markdown-react-js": "~0.3.0",
+    "babel-runtime": "~5.8.25",
+    "json-loader": "~0.5.3"
   }
 }
